@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lightcyan;
+}
+#container{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    box-shadow: lightblue 1rem 1rem 3rem;
+}
+.reloj{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: dodgerblue;
+    border-radius: 5px;
+    color: aliceblue;
+    font-size: 4rem;
+}
+.botones{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.botones .boton{
+    border-radius: 3px;
+    padding: 0.6rem 1rem;
+    border: none;
+    font-size: 1.3rem;
+}
+.botones .boton:hover{
+    font-size: 1.5rem;
+    box-shadow: dodgerblue 2px 2px 5px;
+}
+#pause, #reset{
+    background-color: lightblue;
+    color: dodgerblue;
+}
+#start {
+    background-color: dodgerblue;
+    color: white;
+}
